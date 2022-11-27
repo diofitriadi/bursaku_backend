@@ -1,0 +1,40 @@
+GET http://localhost:3500/api/products?page=1&limit=2000
+
+###
+POST http://localhost:3500/api/products
+Content-Type: application/json
+
+
+
+
+###
+PATCH  http://localhost:3500/api/products/63808d822902295c6c3b44f1
+Content-Type: application/json
+
+{
+  "product_name": "ARTHAASIA FINANCE",
+  "productType": "multifinance",
+  "operator": "hehew",
+  "partnerName": "billfazz",
+  "basePrice": -4325
+}
+
+###
+POST http://localhost:3500/api/auth/register
+Content-Type: application/json
+
+{
+  "name": "admin",
+  "phone": "123456",
+  "email": "admin@admin.com",
+  "password": "password"
+}
+
+###
+POST http://localhost:3500/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "admin@admin.com",
+  "password": "password"
+}

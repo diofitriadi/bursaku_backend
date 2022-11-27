@@ -1,0 +1,2 @@
+- untuk referensi username dan password tersedia di request.rest
+- untuk referensi api terdapat di bursaku_product.json dan bursaku_users.json
